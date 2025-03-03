@@ -1,0 +1,60 @@
+/* Estilo para todo el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilo para los enlaces en el encabezado */
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Cambiar color de los enlaces al pasar el cursor */
+header a:hover {
+    color: #ff9800;
+}
+
+/* Estilo para el contenido principal */
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Cambiar color del botón al pasar el cursor */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
